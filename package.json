@@ -2,7 +2,8 @@
     "private": true,
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "vite build",
+        "start": "node app"
     },
     "devDependencies": {
         "@headlessui/react": "^1.4.2",
@@ -19,6 +20,16 @@
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
         "tailwindcss": "^3.1.0",
-        "vite": "^3.0.0"
+        "vite": "^3.0.0",
+        "express": "*",
+        "ejs": "*",
+        "github-flavored-markdown": "*",
+        "less-middleware": "*"
+    },
+    "name": "cours-lic3-blois",
+    "version": "0.0.1",
+    "engines": {
+        "node": "0.8.8",
+        "npm": "1.1.65"
     }
 }
